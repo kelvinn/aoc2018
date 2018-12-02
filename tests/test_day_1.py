@@ -5,7 +5,7 @@ import days.day_1
 class TestDay1(unittest.TestCase):
 
     def setUp(self):
-        with open('data/day_1.txt', newline='') as f:
+        with open('tests/data/day_1.txt', newline='') as f:
             self.data = f.read()
 
     def test_task_1(self):
