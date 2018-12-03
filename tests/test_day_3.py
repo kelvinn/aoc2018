@@ -11,12 +11,12 @@ class TestDay3(unittest.TestCase):
     def test_task_1(self):
 
         result_task_1 = days.day_3.solve_task_1(self.data)
-        self.assertEqual(result_task_1, '42')
+        self.assertEqual(result_task_1, 101781)
 
     def test_task_2(self):
 
         result_task_2 = days.day_3.solve_task_2(self.data)
-        self.assertEqual(result_task_2, '42')
+        self.assertEqual(result_task_2, '#909')
 
 
 if __name__ == '__main__':
