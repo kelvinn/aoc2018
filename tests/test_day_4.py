@@ -8,7 +8,6 @@ class TestDay4(unittest.TestCase):
         with open('tests/data/day_4.txt', newline='') as f:
             self.data = f.read()
 
-
     def test_task_1(self):
 
         result_task_1 = days.day_4.solve_task_1(self.data)
