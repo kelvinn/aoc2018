@@ -45,7 +45,6 @@ def solve_task_1(data):
         if any([True for p in coord if p in [0, max_x, max_y]]):
             counted_coords[str(closest_point)]['tainted'] = True
 
-    print(counted_coords)
     valid = {k: v for k, v in counted_coords.items() if v['tainted'] is False}
     ranked = sorted(valid.items(), key=lambda x: x[1]['total'], reverse=True)
 

@@ -11,7 +11,7 @@ class TestDay8(unittest.TestCase):
     def test_task_1(self):
 
         result_task_1 = days.day_8.solve_task_1(self.data)
-        self.assertEqual(42, result_task_1)
+        self.assertEqual(41849, result_task_1)
 
     def test_task_2(self):
 
