@@ -1,0 +1,4 @@
+networkx
+flake8
+parameterized
+matplotlib

@@ -3,7 +3,7 @@ python:
   - "3.6"
 
 install:
-  - pip install -r requirements-test.txt
+  - pip install requirements.txt
 
 script:
   - ./go.sh all

@@ -10,8 +10,8 @@ def pop_pairs(data):
 
     for i in range(0, len(data)):
         if i < len(data) - 1 \
-                and data[i] != data[i+1] and (data[i].upper() == data[i+1] or data[i].lower() == data[i+1]):
-            data.pop(i+1)
+                and data[i] != data[i + 1] and (data[i].upper() == data[i + 1] or data[i].lower() == data[i + 1]):
+            data.pop(i + 1)
             data.pop(i)
             return data, True
     return data, False
